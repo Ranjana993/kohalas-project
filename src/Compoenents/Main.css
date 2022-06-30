@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-color: white;
+    overflow: hidden;
+    height: 70%;
+    width: 98%;
+    color: black;
+    padding: 20px;
+    margin: auto;
+    margin-top: 2.3rem;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1>img,
+.img2>img {
+    height: 23rem;
+    width: 20.2rem;
+    margin-right: 19px;
+    margin-bottom: 12px;
+
+}
+
+.img1>img {
+    border-top-left-radius: 12px;
+}
+
+.img2>img {
+    border-top-right-radius: 12px;
+}
+
+.UserInfo {
+    margin-top: -19.9rem;
+    margin-left: 19px;
+}
+
+.inner__data>p {
+    font-size: 1.2rem;
+    margin-top: 12rem;
+    margin-right: 1.8rem;
+    margin-bottom: 1rem;
+    margin-left: 14px;
+
+}
+
+.inner__data>img {
+    height: 17px;
+    border-radius: 50%;
+    width: 18px;
+    margin-left: 14px;
+
+}
+
+h1 {
+    margin-top: 1rem;
+    margin-left: 14px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin-top: 3px;
+    color: gray;
+    margin-left: 14px;
+
+}
+
+h4 {
+    margin-top: .8rem;
+    color: grey;
+    font-weight: light;
+    font-size: 12px;
+    margin-left: 14px;
+
+}
+
+h5 {
+    margin-top: 12px;
+    font-weight: 600;
+    color: rgb(39, 38, 38);
+    margin-left: 14px;
+
+}
+
+.title {
+    color: rgb(82, 50, 243);
+    font-weight: 600;
+    margin-top: 19px;
+
+}
+
+ul {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+ul>li {
+    list-style: none;
+    color: rgb(60, 51, 106);
+    font-weight: 500;
+}
+
+button {
+    background-color: rgb(46, 26, 148);
+    border: none;
+    color: white;
+    width: 10.3rem;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 14px;
+}
+
+button:hover {
+    background-color: white;
+    color: purple;
+    border: 1px solid ;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 756px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img1>img,
+    .img2>img {
+        height: 30rem;
+        width: 25rem;
+        margin-right: 12px;
+        margin-bottom: 12px;
+    }
+
+    .UserInfo {
+        margin-top: 13px;
+        margin-bottom: 20px;
+        margin-left: 12px;
+    }
+
+    .main {
+        background-color: white;
+        overflow: hidden;
+        width: 28rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        font-weight: bolder;
+        margin-bottom: -3rem;
+        color: gray;
+
+    }
+
+    .inner__data>p {
+        font-size: 1.1rem;
+        margin-top: 1.2rem;
+        margin-right: 1.8rem;
+        margin-bottom: 1rem;
+    }
+}
